@@ -1,0 +1,17 @@
+# AI Configuration File
+# This configuration is used by the AI utilities fallback system
+
+# Language setting for the bot
+LANGUAGE: en
+
+# API Configuration
+# The fallback API endpoint (currently uses Groq as primary)
+API_BASE_URL: https://api.groq.com/openai/v1
+
+# Model Configuration
+# Using Groq's Llama model as the primary model
+MODEL_ID: llama-3.3-70b-versatile
+
+# Internet access for AI search tool
+# Set to true to disable internet access, false to enable
+INTERNET_ACCESS: false
